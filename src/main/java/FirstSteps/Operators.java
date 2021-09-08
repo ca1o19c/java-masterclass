@@ -42,5 +42,14 @@ public class Operators {
             System.out.println("It is not an alien!");
             System.out.println("And I am scared of aliens");
         }
+
+        int topScore = 100;
+        var resultScore = (topScore >= 100) ? "You got the high score!" : "You not got the high score!";
+        System.out.println(resultScore);
+
+        int secondTopScore = 60;
+        if (topScore > secondTopScore && topScore <= 100) {
+            System.out.println("Greater than second top score and less or equal than 100");
+        }
     }
 }
