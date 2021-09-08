@@ -16,5 +16,25 @@ public class Operators {
 
         int modulo = divide % 3;
         System.out.println("4 % 3 = " + modulo);
+
+        int result = 1;
+
+        result++;
+        System.out.println("1 + 1 = " + result);
+
+        result--;
+        System.out.println("2 - 1 = " + result);
+
+        result += 2;
+        System.out.println("1 + 2 = " + result);
+
+        result *= 10;
+        System.out.println("3 * 10 = " + result);
+
+        result /= 3;
+        System.out.println("30 / 10 = " + result);
+
+        result -= 2;
+        System.out.println("10 - 2 = " + result);
     }
 }
